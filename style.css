@@ -2,7 +2,7 @@
    font-family: 'Quicksand', sans-serif;
    src: url(Quicksand-VariableFont_wght.ttf);
 }
-@media screen and (max-width:320px){
+@media screen and (max-width:425px){
    @font-face {
        font-family: 'Quicksand', sans-serif;
        src: url(Quicksand-VariableFont_wght.ttf);
@@ -158,7 +158,7 @@
 }
 
 
-@media screen and (min-width:321px) and (max-width:768px){
+@media screen and (min-width:426px) and (max-width:1119px){
    @font-face {
        font-family: 'Quicksand', sans-serif;
        src: url(Quicksand-VariableFont_wght.ttf);
