@@ -1,3 +1,38 @@
+.topnav {
+   overflow: hidden;
+   background-color: #00F627;
+   position: relative;
+   padding-bottom: 10px;
+
+ }
+ 
+ /* Hide the links inside the navigation menu (except for logo/home) */
+ .topnav #myLinks {
+   display: none;
+ }
+ 
+ /* Style navigation menu links */
+ .topnav a {
+   color: white;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+ }
+ 
+ /* Style the hamburger menu */
+ .topnav a.icon {
+   background: black;
+   display: block;
+   position: absolute;
+   right: 0;
+   top: 0;
+ }
+ 
+ /* Add a grey background color on mouse-over */
+ 
+ /* Style the active link (or home/logo) */
+
+
 @font-face {
    font-family: 'Quicksand', sans-serif;
    src: url(Quicksand-VariableFont_wght.ttf);
@@ -166,6 +201,9 @@
    * {
        font-family: 'Quicksand', sans-serif;
    }
+   .topnav {
+      display: none;
+     }
    nav {
        position: fixed;
    }
@@ -347,6 +385,12 @@
            font-family: 'Quicksand', sans-serif;
            color: #00F627;
            justify-content: center;
+        }
+        .topnav {
+         display: none;
+        }
+        nav {
+         position: fixed;
         }
         nav ul {
          display: inline-block;
